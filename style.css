@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+@font-face {
+  font-weight: 500;
+  font-family: Onest;
+  src: url("./fonts/WOFF/OnestRegular1602-hint.woff");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Onest;
+  src: url("./fonts/WOFF/OnestMedium1602-hint.woff");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Onest;
+  src: url("./fonts/WOFF/OnestLight1602-hint.woff");
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #F5F5F5;
+  font-family: 'Onest', Arial, sans-serif;
+  line-height: 130%;
+}
+
+.header-container {
+  display: flex;
+  background: linear-gradient(0deg, rgba(166, 126, 255, 0.1), rgba(166, 126, 255, 0.1)), url(./src/images/list.jpg); 
+  height: 90px;
+}
+
+.blue-text {
+  color: #136EF6;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.px10 {
+  font-size: 10px;
+}
+
+.px12 {
+  font-size: 12px;
+}
+
+.px13 {
+  font-size: 13px;
+}
+
+.px15 {
+  font-size: 15px;
+}
+
+.px16 {
+  font-size: 16px;
+}
+
+.px18 {
+  font-size: 18px;
+}
+
+.px34 {
+  font-size: 34px;
+}
+
+.border-color-blue {
+  box-sizing: 0,5px;
+  border-color: blue;
+}
+
+.flex-item {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-dialog-centered {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 930px;
+  height: 440px;
+  background: linear-gradient(0deg, rgba(166, 126, 255, 0.1), rgba(166, 126, 255, 0.1)), url(./src/images/list.jpg); 
+}
+
+.flex {
+  display: flex;
+}
+
+.modal-text {
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.modal-content img {
+  margin-top: -2rem;
+}
+
+.form-floating>.form-control {
+  height: 50px;
+}
+
