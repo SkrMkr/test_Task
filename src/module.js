@@ -1,6 +1,6 @@
 const openModal = (modal) => {
   modal.classList.add('show');
-  modal.style.display = 'block'; // eslint-disable-line
+  modal.style.display = 'inline-block'; // eslint-disable-line
 };
 
 const closeModal = (modal) => {
